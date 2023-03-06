@@ -330,9 +330,10 @@ footer p {
     }
 
     .p-absolute {
-        left: 42%;
+        left: 40%;
         font-size: 15px;
-        top: 55%;
+        top: 54%;
+        width: 100px;
     }
 }
 
@@ -360,9 +361,10 @@ footer p {
     }
 
     .p-absolute {
-        left: 40%;
+        left: 35%;
         font-size: 19px;
-        top: 55%;
+        top: 50%;
+        width: 170px;
     }
 }
 
@@ -389,8 +391,10 @@ footer p {
     }
 
     .p-absolute {
-        left: 30%;
-        font-size: 25px
+        left: 25%;
+        top: 50%;
+        font-size: 20px;
+        width: 170px;
     }
 }
 
@@ -414,7 +418,10 @@ footer p {
     }
 
     .p-absolute {
-        left: 21%;
+        left: 20%;
+        top: 43%;
+        font-size: 25px;
+        width: 180px;
     }
 }
 
