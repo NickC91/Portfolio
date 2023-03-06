@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='description'
+        content='Sviluppatore Web Junior - Da sempre appassionato al codice, alle animazioni e tutto quello che riguarda il web'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicola Calzà">
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://www.nicola-calza.it/" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portfolio - Nicola Calzà" />
+    <meta property="og:description"
+        content="Sviluppatore Web Junior - Da sempre appassionato al codice, alle animazioni e tutto quello che riguarda il web" />
+    <meta property="og:url" content="https://www.nicola-calza.it/" />
+    <meta property="og:site_name" content="nicola-calza" />
+    <meta property="og:image" content="https://www.nicola-calza.it/assets/img/image-me.jpg" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="550" />
+    <meta property="og:image:type" content="image/jpeg" />
+
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&family=Roboto+Mono:wght@100;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/font/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfolio - Calzà Nicola</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-yellow">
+        <a onclick="addClass()" class="navbar-brand" href="#anchor-header">NC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars"
+            aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div onclick="addClass()" class="collapse navbar-collapse" id="navbars">
+            <ul class="navbar-nav mr-auto main-menu">
+                <a href="#anchor-about">
+                    <li class="border-0">Su di me</li>
+                </a>
+                <a href="#anchor-career">
+                    <li class="border-0">Studi</li>
+                </a>
+                <a href="#anchor-skills">
+                    <li class="border-0">Abilità</li>
+                </a>
+                <a href="#anchor-project">
+                    <li class="border-0">Progetti</li>
+                </a>
+                <a href="#anchor-contact">
+                    <li class="border-0 mb-3">Contatti</li>
+                </a>
+            </ul>
+            <ul class="letter-spacing mb-3 social-icons no-list">
+                <li>
+                    <a rel="nofollow" href="https://www.facebook.com/nicola.calza.9" target="_blank"><i
+                            class="fa fa-facebook-official"></i></a>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://www.instagram.com/calzanicola/" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://www.linkedin.com/in/nicola-calz%C3%A0-73266412b/" target="_blank"><i
+                            class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://github.com/NickC91" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                    <a rel="nofollow" href="mailto:nicola.calza@yahoo.it" target="_blank"><i
+                            class="fa fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="position-fixed sidebar">
+        <div class="image">
+            <a href="#anchor-header">
+                <img src="./assets/img/image-me.jpg" alt="profile-photo">
+            </a>
+        </div>
+        <ul class="main-menu no-list">
+            <a href="#anchor-about">
+                <li>Su di me</li>
+            </a>
+            <a href="#anchor-career">
+                <li>Studi</li>
+            </a>
+            <a href="#anchor-skills">
+                <li>Abilità</li>
+            </a>
+            <a href="#anchor-project">
+                <li>Progetti</li>
+            </a>
+            <a href="#anchor-contact">
+                <li>Contatti</li>
+            </a>
+        </ul>
+        <ul class="social-icons no-list">
+            <li>
+                <a rel="nofollow" href="https://www.facebook.com/nicola.calza.9" target="_blank"><i
+                        class="fa fa-facebook-official"></i></a>
+            </li>
+            <li>
+                <a rel="nofollow" href="https://www.instagram.com/calzanicola/" target="_blank"><i
+                        class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+                <a rel="nofollow" href="https://www.linkedin.com/in/nicola-calz%C3%A0-73266412b/" target="_blank"><i
+                        class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a rel="nofollow" href="https://github.com/NickC91" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+                <a rel="nofollow" href="mailto:nicola.calza@yahoo.it" target="_blank"><i class="fa fa-envelope"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div class="page-outer container">
+        <main id="anchor-header" class="header">
+            <h1>Hey, piacere...<br> Nicola <span>😊<span></h1>
+            <h2>Sviluppatore web</h2>
+            <p>Costruire un prodotto di successo è una sfida.<br> Sono molto energico nella progettazione<br> e
+                meticoloso
+                fino
+                all'ultimo pixel...</p>
+            <a href="#anchor-contact"><span class="button">Contattami</span></a>
+        </main>
+        <div id="anchor-about" class="about">
+            <h2>Su di me</h2>
+            <p>Sono uno sviluppatore Front-End. Ho la passione per il codice e per tutto ciò che possa
+                rendere intuitiva e dinamica la tua esperienza da utente.</p>
+            <p>Mi ritengo ben organizzato, risolutore di problemi e con grande attenzione ai
+                dettagli. Appassionato di snowboard, di videogiochi e di attività all'aperto anche se mooolto
+                sedentario.</p>
+            <p>Interessato profondamente all'intero spettro del front-end.</p>
+
+        </div>
+        <div id="anchor-career" class="career">
+            <h2>Studi</h2>
+            <p>Il mio percorso scolastico e i miei diplomi</p>
+            <div class="career-time">
+                <div class="position-relative pt-5">
+                    <div class="career-circle">
+                        <span>2012</span>
+                    </div>
+                    <div class="career-info">
+                        <h3>Perito Elettrotecnico</h3>
+                        <p>Istituto tecnico e tecnologico Giacomo Floriani</p>
+                    </div>
+                </div>
+                <div class="position-relative pt-5">
+                    <div class="career-circle">
+                        <span>2017</span>
+                    </div>
+                    <div class="career-info">
+                        <h3>Web Graphic Designer</h3>
+                        <p>Dieffe Accademie delle professioni</p>
+                    </div>
+                </div>
+                <div class="position-relative pt-5">
+                    <div class="career-circle">
+                        <span>2023</span>
+                    </div>
+                    <div class="career-info">
+                        <h3>Front-End Developer</h3>
+                        <p>Start2Impact University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="anchor-skills" class="skills">
+            <h2>Abilità</h2>
+            <p>L'area principale della mia esperienza è lo sviluppo front-end: HTML, CSS, Javascript e la libreria
+                React. Dalla creazione di semplici landing page fino ad un sito web completo</p>
+            <p>Ho anche esperienza nell'ambiente Node.js: nello specifico con Express, Moongose e MongoDB. Sto puntando
+                a diventare un MERN Stacker Developer</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <a target="_blank" href="https://www.start2impact.it/">
+                        <img class="image-skills pt-5" src="./assets/img/HTML_e_CSS_Certificato.png"
+                            alt="html-css-certificato">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a target="_blank" href="https://www.start2impact.it/">
+                        <img class="image-skills pt-5" src="./assets/img/JavaScript_Basics_Certificato.png"
+                            alt="javascript-basic-certificato">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a target="_blank" href="https://www.start2impact.it/">
+                        <img class="image-skills pt-5" src="./assets/img/JavaScript_Advanced_Certificato.png"
+                            alt="javascript-advanced-certificato">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a target="_blank" href="https://www.start2impact.it/">
+                        <img class="image-skills pt-5" src="./assets/img/React_Certificato.png" alt="react-certificato">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="anchor-project" class="projects">
+            <h2>Progetti</h2>
+            <div class="row">
+                <div class="position-relative col-lg-4 col-md-6">
+                    <a class="hover-image" target="_blank" href="https://github.com/NickC91/Counter-app">
+                        <img class="image-skills pt-5" src="./assets/img/project-0.png" alt="progetto-0">
+                        <span class="p-absolute">Contatore</span>
+                    </a>
+                </div>
+                <div class="position-relative col-lg-4 col-md-6">
+                    <a class="hover-image" target="_blank" href="https://github.com/NickC91/Openlibrary">
+                        <img class="image-skills pt-5" src="./assets/img/project-1.png" alt="progetto-1">
+                        <span class="p-absolute text-dark">Open Library</span>
+                    </a>
+                </div>
+                <div class="position-relative col-lg-4 col-md-6">
+                    <a class="hover-image" target="_blank" href="https://github.com/NickC91/vegetarian-food">
+                        <img class="image-skills pt-5" src="./assets/img/project-2.png" alt="progetto-1">
+                        <span class="p-absolute text-white bg-dark">Vegetarian Food</span>
+                    </a>
+                </div>
+                <div class="position-relative col-lg-4 col-md-6">
+                    <a class="hover-image" target="_blank" href="https://scadenzario.herokuapp.com/">
+                        <img class="image-skills pt-5" src="./assets/img/project-extra.png" alt="progetto-extra">
+                        <span class="p-absolute">Scadenzario</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div id="anchor-contact" class="contact">
+            <h2>Contatti</h2>
+            <p>Interessato a qualsiasi opportunità lavorativa, dal piccolo sito a quelli più grandi e complessi.</p>
+            <p style="display: block;">Per qualsiasi cosa non esitarmi a contattarmi, per richieste e domande utilizza
+                il modulo qua sotto.</p>
+            <form class="form-control">
+                <div class="row">
+                    <div class="col-md-6 col-12 form-input">
+                        <input placeholder="Nome e Cognome" type="text" required>
+                    </div>
+                    <div class="col-md-6 col-12 form-input">
+                        <input placeholder="Email" type="email" required>
+                    </div>
+                    <div class="col-12 form-input">
+                        <textarea placeholder="Messaggio" required></textarea>
+                    </div>
+                </div>
+                <button class="button">Contattami</button>
+            </form>
+        </div>
+    </div>
+    <footer class="pb-1">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-lg-6 col-12 text-center">
+                    <p>Copyright © 2023</p>
+                </div>
+                <div class="col-lg-6 col-12 text-center">
+                    <a href="#anchor-header">
+                        <span class="button">Torna in cima ⬆️</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        function addClass() {
+            let element = document.getElementById("navbars");
+            element.classList.remove("show");
+        }
+    </script>
+</body>
+
+</html>
